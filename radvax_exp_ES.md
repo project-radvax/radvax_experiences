@@ -43,15 +43,16 @@ Para poder compartir sus datos sin revelar su información personal, debe enviar
 ### Generar tu nombre con hash usando DuckDuckGo
 - Ve al sitio web [DuckDuckGo.com](https://duckduckgo.com/)
 - introduce SHA, seguido de tu nombre: `SHA "Firstname Lastname"`.  Por ejemplo, Jane Doe introduciría su nombre de la siguiente manera:
-[Página de inicio de DuckDuckGo, con `SHA "Jane Doe"' en el cuadro de búsqueda](/figs/DDG__homepage.png)
+
+![Página de inicio de DuckDuckGo, con 'SHA "Jane Doe"' en el cuadro de búsqueda](/figs/DDG__homepage.png)
 
 - Copia el resultado; ese código es tu identificador único (y nadie puede invertirlo para saber tu nombre).  El identificador único de Jane es `cac7bbb6b67b44ea0ab997d34a88e4ea9b4d3d62`.
+
 ![DuckDuckGo devuelve la página, mostrando el identificador único de Jane](/figs/DDG__Jane_Doe.png)
 
 - Eso es todo.
 
 - Si alguna vez necesitas obtener tu identificador de nuevo, sólo tienes que repetir los pasos anteriores.  Asegúrate de escribir tu nombre exactamente igual, incluyendo las mayúsculas.  La diferencia de una sola letra cambiará drásticamente la salida de la función hash.  Por ejemplo, si Jane se olvida de escribir su nombre en mayúsculas, y escribe `SHA "jane Doe"`, la salida se convierte en:
-[DuckDuckGo devuelve la página, mostrando una salida diferente cuando el nombre no está en mayúsculas](/figs/DDG__jane_Doe.png)
 
+![DuckDuckGo devuelve la página, mostrando una salida diferente cuando el nombre no está en mayúsculas](/figs/DDG__jane_Doe.png)
 
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
