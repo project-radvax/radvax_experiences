@@ -1,0 +1,2 @@
+unique_id	effects	n_doses	age_at_first_radvax	gender	ethnicity	dose_date_YYYYMMDD	radvax_gen	had_covid	covid_date_YYYYMMDD	symptoms	PCR_result	antigen_result	other
+Jane Doe	nasal congestion	1	33	F	African-American	2020-07-04	3	no					
